@@ -1,0 +1,49 @@
+{
+	"compilerOptions": {
+		"outDir": "./.tsbuild",
+		"types": [
+			"node",
+			"vite/client"
+		],
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"incremental": true,
+		"jsx": "react-jsx",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext"
+		],
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "bundler",
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"skipLibCheck": true,
+		"strict": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"useDefineForClassFields": true,
+		"noImplicitOverride": true
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"client",
+		"shared",
+		"server"
+	],
+	"files": [
+		"./vite.config.ts"
+	]
+}

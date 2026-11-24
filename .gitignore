@@ -1,0 +1,11 @@
+node_modules
+dist
+.tsbuild
+*.tsbuildinfo
+.data
+certs
+.env
+.env.*
+.dev.vars
+test-results
+.DS_Store
